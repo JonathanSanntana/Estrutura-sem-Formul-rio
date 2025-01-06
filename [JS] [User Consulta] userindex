@@ -1,0 +1,4 @@
+function () {
+  var userindex = sessionStorage.getItem('LeadUserIndex');
+  return ({{cookie-LeadUserIndex}}||userindex);
+}
